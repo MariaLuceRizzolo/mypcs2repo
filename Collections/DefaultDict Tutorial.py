@@ -1,8 +1,8 @@
 from collections import defaultdict
 
-n,m= map(int, input().split())
-dict_A=defaultdict(list)
-dict_B=[]
+n,m = map(int, input().split())
+dict_A = defaultdict(list)
+dict_B = []
 
 for i in range (0,n):
     dict_A[input()].append(str(i+1))
