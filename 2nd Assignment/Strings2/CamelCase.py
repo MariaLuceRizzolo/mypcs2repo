@@ -6,9 +6,10 @@ import sys
 
 def camelcase(s):
     count=1
+    upper_case="ABCDEFGHIJKLMNOPQRSTUVWXYZ"
     
     for i in s:
-        if i.isupper():
+        if i in upper_case:
             count+=1
             
     return (count)   

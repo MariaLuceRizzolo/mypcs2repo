@@ -7,13 +7,13 @@ import sys
 def compareTriplets(a, b):
     point_first=0
     point_second=0
-
-    for i, j in zip(a,b):
-        if i>j:
+    
+    for i in range(len(a)):
+        if a[i]>b[i]:
             point_first+=1
-        elif i<j:
+        if a[i]<b[i]:
             point_second+=1
-            
+
     return point_first, point_second
 
 if __name__ == '__main__':

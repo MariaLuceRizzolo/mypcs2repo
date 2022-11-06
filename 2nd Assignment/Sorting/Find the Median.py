@@ -6,7 +6,7 @@ import sys
 
 def findMedian(arr):
     new_arr=sorted(arr)
-    median= new_arr[len(arr)//2]
+    median=new_arr[len(arr)//2]
     
     return median
 

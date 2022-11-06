@@ -12,7 +12,7 @@ def timeConversion(s):
     
     if time_format=="PM" and int(hours)<12:
         hours=str(int(hours)+12)
-    elif time_format=="AM" and int(hours)==12:
+    elif time_format=="AM" and hours=='12':
         hours="00"
 
     military_time=f'{hours}:{minutes}:{seconds}'

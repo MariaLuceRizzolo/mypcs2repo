@@ -20,7 +20,7 @@ def countingSort(arr):
         count=0
              
     for i in range(100):
-        for j in range(0,frequency[i]):
+        for j in range(frequency[i]):
             ordered.append(i)
             
     return ordered
