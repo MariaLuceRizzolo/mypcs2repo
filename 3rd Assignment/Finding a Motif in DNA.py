@@ -1,7 +1,7 @@
 with open("3rd Assignment/rosalind_subs.txt") as file:
-    text = file.read()
+    sequences = file.read()
 
-    sequence, motif = text.splitlines()
+    sequence, motif = sequences.splitlines()
 
     for location in range(len(sequence)):
         if sequence[location:].startswith(motif):
