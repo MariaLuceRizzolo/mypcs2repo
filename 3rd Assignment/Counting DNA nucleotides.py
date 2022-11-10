@@ -1,5 +1,5 @@
 with open("3rd Assignment/rosalind_dna.txt") as file:
-    sequence = file.readlines()
+    sequence = file.readline()
 
     A = sequence[0].count('A')
     C = sequence[0].count('C')
