@@ -3,7 +3,7 @@ from collections import Counter
 import pandas as pd
 
 lst = []
-for x in SeqIO.parse('rosalind_cons.txt', 'fasta'):
+for x in SeqIO.parse('3rd assignment/rosalind_cons.txt', 'fasta'):
     lst.append(x.seq)
 
 lst_cnt = []
