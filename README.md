@@ -34,14 +34,14 @@ In this repository there are all the required codes, each of them titled in such
 ***
 10 Rosalind challenges:
 * dna, rna, revc, iprb, gc, subs, lia, iev, cons, prob
-* All the dataset (.txt files) used to submit the final solution on Rosalind.
+* All the datasets (.txt files) used to submit the final solution on Rosalind.
 ## 4th Assignment
 ***
 10 Rosalind challenges:
 * fib, hamm, fibd, mrna, prtm, lcsm, perm, revp, lexf, lgis
-* All the dataset (.txt files) used to submit the final solution on Rosalind.
+* All the datasets (.txt files) used to submit the final solution on Rosalind.
 ## 5th Assignment
 ***
 10 Rosalind challenges:
 * grph, mprt, orf, splc, pmch, pper, tree, long, sseq, tran
-* All the dataset (.txt files) used to submit the final solution on Rosalind.
+* All the datasets (.txt files) used to submit the final solution on Rosalind.
