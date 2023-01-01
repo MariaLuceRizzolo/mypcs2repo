@@ -7,7 +7,6 @@ with open ("5th Assignment/rosalind_sseq.txt") as file:
 
     s = seq[0]
     t = seq[1]
-
     pos = 0                                    
     positions = []     
                             
